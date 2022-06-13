@@ -1,0 +1,46 @@
+.hero-section{
+    background: url("../images/header\ top.png") right top no-repeat, url("../images/header\ bottom.png") left bottom no-repeat;
+    background-size: 500px, 500px, auto;
+}
+
+.container{
+    margin: 0 !important;
+}
+.navbar{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+.active{
+    color: #51bfad !important;
+}
+.nav-link:hover{
+    color: #51bfad !important;
+}
+
+.form-control{
+    border-radius: 0!important;
+    caret-color: white;
+    font-size: 18px!important;
+    color: white !important;
+}
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: none!important;
+    outline: none!important;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+}
+
+.text-sm{
+    font-size: 14px!important;
+}
+
+.icon-size{
+    width: 13px;
+    height: 13px;
+    margin-top: 10px;
+
+}
