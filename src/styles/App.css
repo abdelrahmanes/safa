@@ -1,6 +1,7 @@
 .hero-section{
     background: url("../images/header\ top.png") right top no-repeat, url("../images/header\ bottom.png") left bottom no-repeat;
     background-size: 500px, 500px, auto;
+    height: 80vh;
 }
 
 .container{
@@ -44,3 +45,187 @@
     margin-top: 10px;
 
 }
+
+.breadcrumb >li a:not(.active) {
+    color: white !important;
+ }
+ .breadcrumb-item+.breadcrumb-item::before{
+	content: ">"!important;
+    float: right!important;
+    margin-left: 8px;
+    color: #51bfad !important;
+}
+
+.heart{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding-top: 2px;
+    background-color: white;
+}
+
+.heart-text{
+    width: 60px;
+    font-size: 14px!important;
+}
+
+.details-top{
+    border-bottom: 1px solid #00000023;
+}
+
+.lg-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.event{
+    font-size: 12px
+}
+
+.hero-title{
+    
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.speakers-card{
+    width: 350px;
+    z-index: 0;
+}
+
+
+.dr-img{
+    width: 52px;
+    height: 52px;
+}
+
+.dr-name{
+    font-size: 12px;
+    color: #303A6C;
+    font-weight: 600;
+}
+.dr-title{
+    font-size: 10px;
+    color: #5260AB;
+}
+
+/*=========================== end Header ================= */
+
+.summary-section{
+    background: url("../images/summary.png") top 40px right 65px no-repeat;
+    background-size: 130px;
+    z-index: 1;
+    position:relative
+}
+
+.summary-title{
+    color: #303A6C;
+    font-weight: bold;
+    /* text-shadow:0px 1px 2px rgb(0 0 0 / 92%) */
+}
+.attendants{
+    font-size: 10px;
+    font-weight: 600;
+    margin-block: 14px;
+}
+
+.summary-details{
+    color: #303A6C;
+    font-size: 14px;
+}
+
+.webinars{
+    width: 230px;
+    border-radius: 5px;
+    margin-right: auto;
+}
+.check-container{
+    margin-top: 34px;
+}
+.check-icon{
+    color: #F69C5D;
+    width: 30px;
+    height: 30px;
+}
+
+.content-title{
+    font-size: 12px;
+    color: #ffffff52;
+    margin-block: 14px;
+}
+
+/* ========= end summary section ================= */
+.question-container{
+    padding-left: 4rem;
+}
+
+.question-section-col{
+    border: 1px solid #525fab25;
+    border-radius: 52% 0 0 48%;
+}
+.question-section{
+    background: url("../images/small-studen\ bg.png") bottom  right  no-repeat;
+    background-size: 300px 200px;
+    border-radius: 48% 0 0 48% ;
+    
+    max-width: 100%;
+    height: 360px;
+    padding-left: 4rem;
+}
+
+.student{
+    height: 440px;
+}
+
+.question-body{
+    margin-right: -90px;
+    position: relative;
+}
+
+.question-icon{
+    font-size: 82px;
+    color: #51bfad;
+}
+
+.send-question{
+    font-weight: bold;
+    color: #303A6C;
+}
+
+.attend-webinar{
+    color: #525fabad;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    border: 2px solid #303a6c16;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  textarea::placeholder{
+      font-size: 14px;
+  }
+  .textarea-label{
+      right: 0;
+      top: -13px;
+      border: 4px solid white;
+      font-size: 12px;
+  }
+
+  .error{
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: #F69C5D
+  }
+
+  .send-btn{
+      opacity: .5;
+  }
