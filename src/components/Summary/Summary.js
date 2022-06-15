@@ -10,7 +10,7 @@ import {
 
 function Summary() {
   return (
-    <div className="pt-5 px-4 summary-section mb-5">
+    <div className=" sm-container summary-section mb-5">
       <Row className="mt-5">
         <Col sm={7}>
           <h4 className=" summary-title">ملخص الندوة</h4>

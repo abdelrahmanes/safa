@@ -4,9 +4,9 @@ import { Facebook, Google, Linkedin, Twitter } from "react-bootstrap-icons";
 import logo_dark from "../images/logo-dark.png";
 function Footer() {
   return (
-    <div className="border-top mx-4 pt-3">
+    <footer className="border-top ">
       <Row>
-        <Col>
+        <Col sm={12} lg={4}>
           <div className="mb-3">
             <img src={logo_dark} alt="logo" />
           </div>
@@ -19,10 +19,10 @@ function Footer() {
             </a>
           </div>
         </Col>
-        <Col>
+        <Col sm={12} lg={4}>
           <p className="links">الروابط</p>
           <Row>
-            <Col>
+            <Col sm={6}>
               <p className="link"> الرئيسية</p>
               <p className="link">من نحن</p>
               <p className="link">الخدمات</p>
@@ -30,7 +30,7 @@ function Footer() {
               <p className="link">الكورسات</p>
               <p className="link">الندوات</p>
             </Col>
-            <Col>
+            <Col sm={6}>
               <p className="link">الورشات</p>
               <p className="link">الأخبار</p>
               <p className="link">الأبحاث</p>
@@ -40,7 +40,7 @@ function Footer() {
             </Col>
           </Row>
         </Col>
-        <Col className="flex-column gap-3 d-flex">
+        <Col sm={12} lg={4} className="flex-column gap-3 d-flex">
           <p className="links">تابعنا</p>
           <div className="d-flex flex-column gap-1">
             <div className="d-flex gap-1 f-icons">
@@ -50,7 +50,7 @@ function Footer() {
               <Facebook className="icon-size mt-0" />
             </div>
             <p className="links">لمتابعه الاخبار</p>
-            <InputGroup className="mb-3">
+            <InputGroup className="mb-3 subscribe">
               <FormControl
                 aria-label="Default"
                 aria-describedby="inputGroup-sizing-default"
@@ -67,7 +67,7 @@ function Footer() {
         </Col>
       </Row>
       <div className="text-center py-5 link">الحقوق محفوظة لصفا</div>
-    </div>
+    </footer>
   );
 }
 

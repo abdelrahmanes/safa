@@ -4,9 +4,9 @@ import { Question } from "react-bootstrap-icons";
 import student from "../../images/student.png";
 function Questions() {
   return (
-    <div className="mt-1 question-container mb-5">
+    <div className="mt-1 question-container  mb-5">
       <Row>
-        <Col className="question-section-col">
+        <Col sm={12} md={8} lg={7} className="question-section-col">
           <div className="question-section bg-primary position-relative border-1">
             <img
               src={student}
@@ -15,7 +15,7 @@ function Questions() {
             />
           </div>
         </Col>
-        <Col className="bg-white question-body">
+        <Col sm={12} md={4} lg={5} className="bg-white question-body">
           <div className="d-flex align-items-center">
             <div className="question-icon mb-2">
               <Question />

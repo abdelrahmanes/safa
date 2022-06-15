@@ -6,7 +6,7 @@ import user from "../../images/user.png";
 function TopNavBar() {
   return (
     <>
-      <Navbar bg="transparent" variant="transparent">
+      <Navbar bg="transparent" variant="transparent" className="top-nav-lg">
         <Navbar.Brand href="#home">
           <img src={logo} />
         </Navbar.Brand>
@@ -43,6 +43,12 @@ function TopNavBar() {
           </div>
         </Nav>
       </Navbar>
+
+      <div className=" justify-content-center align-items-center top-nav-sm">
+        <div>
+          <img src={logo} />
+        </div>
+      </div>
     </>
   );
 }

@@ -5,7 +5,7 @@ import dr1 from "../../images/dr1.png";
 import dr2 from "../../images/dr2.png";
 function HeroDetails() {
   return (
-    <Col className="row-col-6 position-relative" sm={5}>
+    <Col className="row-col-6 position-relative" sm={12} md={4} lg={5}>
       <div className="details-top d-flex justify-content-between">
         <Breadcrumb>
           <Breadcrumb.Item href="#">الرئيسية</Breadcrumb.Item>
@@ -34,7 +34,7 @@ function HeroDetails() {
         حجز الآن
       </Button>
 
-      <div className="bg-white rounded-3 py-1 px-1 position-absolute speakers-card">
+      <div className="bg-white  rounded-3 py-1 px-1 position-absolute speakers-card">
         <p>تقديم المحاضرين</p>
         <div>
           <div className="d-flex gap-1 mb-1">
